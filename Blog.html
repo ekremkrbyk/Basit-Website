@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loiza SYSTEM</title>
+	<link rel="shortcut icon" href="C:\Users\ekrem\Desktop\PROJELER\JS-HTML-CSS\Sources\logo.ico" type="image/x-ico" >
+	<link href="Loiza_SYSTEM.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="overlay">
+	
+	<header>
+	<img id="yazi" src="C:\Users\ekrem\Desktop\PROJELER\JS-HTML-CSS\Sources\Modern design.png" width="100px" height="100px" onClick="Loiza_SYSTEM.html">&nbsp;
+        <div class="yazi">
+            <a href="Loiza_SYSTEM.html">LoizaSystem</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Loiza_SYSTEM.html">Ana Sayfa</a></li>
+                <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="Hizmetlerimiz.html">Hizmetler</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="İletişim.html">İletişim</a></li>
+            </ul>
+        </nav>&nbsp;
+		<button id="loginBtn">Giriş Yap</button>
+        <button id="signupBtn">Üye Ol</button>
+
+    <!-- Modal Background -->
+    <div id="modalBackground" class="modal-background">
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2>Giriş Yap</h2><br>
+            <form>
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Şifre:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" id="password" name="password" required><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Giriş Yap</button>
+            </form>
+        </div>
+
+        <!-- Signup Modal -->
+        <div id="signupModal" class="modal">
+            <span class="close" onclick="closeModal('signupModal')">&times;</span>
+            <h2>Üye Ol</h2><br>
+            <form>
+                <label for="newUsername">Kullanıcı Adı:</label>
+                <input type="text" id="newUsername" name="newUsername" required><br>
+                <label for="email">E-posta:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Telefon:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="newPassword">Şifre:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" id="newPassword" name="newPassword" required><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Üye Ol</button>
+            </form>
+        </div>
+    </div>
+	<div class="enust">&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="https://www.instagram.com/ekrem_krbyk/"><img src="C:\Users\ekrem\Desktop\PROJELER\JS-HTML-CSS\Sources\facebook.png" width="30px"height="30px"></a>&nbsp;<a href="https://www.instagram.com/ekrem_krbyk/"><img src="C:\Users\ekrem\Desktop\PROJELER\JS-HTML-CSS\Sources\instagram.jpg" width="30px"height="30px"></a> &nbsp;<a href="https://www.instagram.com/ekrem_krbyk/"><img src="C:\Users\ekrem\Desktop\PROJELER\JS-HTML-CSS\Sources\indir.png" width="30px"height="30px"></a>
+</div>
+</header>
+	<br>
+		<center><div id="box">
+	<font size="+2" color="white">Yazılım Geliştirmede En İyi Uygulamalar: Kod Kalitesini Artırmanın Yolları;</font><br><br>
+
+<font id="metin">Yazılım geliştirme dünyasında, kaliteli kod yazmak hem geliştiriciler hem de kullanıcılar için büyük önem taşır. İyi yazılmış, temiz ve sürdürülebilir kod, projelerin başarısında kritik bir rol oynar. Bu yazımızda, Loiza System olarak yazılım geliştirme sürecinde kod kalitesini artırmanın yollarını paylaşacağız.</font>
+<br>
+
+<font size="+0.5" color="aliceblue">1. Kod Standartlarına Uyun
+Kod standardı, tüm ekip üyelerinin aynı kurallara ve biçimlendirme ilkelerine uymasını sağlar. Bu, kodun okunabilirliğini artırır ve bakımını kolaylaştırır. Python için PEP 8 veya JavaScript için AirBnB stil rehberi gibi yaygın olarak kabul edilen standartları kullanabilirsiniz. Kendi projenize uygun bir stil rehberi oluşturmak ve bunu ekibinizle paylaşmak da iyi bir fikirdir.<br><br>
+
+2. Anlamlı Değişken ve Fonksiyon İsimleri Kullanın
+Değişken ve fonksiyon isimleri, kodun anlaşılabilirliğinde büyük rol oynar. İsimlerin, fonksiyonun veya değişkenin amacını açıkça belirtmesi gerekir. Örneğin, calculateTotal fonksiyon ismi, calc gibi belirsiz bir isimden çok daha açıklayıcıdır.<br><br>
+
+3. Kodunuzu Modüler Hale Getirin
+Fonksiyonlarınızın ve sınıflarınızın tek bir sorumluluğu olmasına dikkat edin. Bu, kodunuzu daha modüler ve yeniden kullanılabilir hale getirir. "Tek Sorumluluk Prensibi" (Single Responsibility Principle) bu konuda rehberiniz olabilir.<br><br>
+
+4. Yorum Satırlarını ve Dokümantasyonu İhmal Etmeyin
+Yorumlar ve dokümantasyon, kodunuzu anlamayı kolaylaştırır ve ekip arkadaşlarınızın işini kolaylaştırır. Ancak, yorumların kodu tekrar etmemesi ve gereksiz bilgiler içermemesi önemlidir. Yorumlar, kodun neden yazıldığını açıklamalıdır, nasıl çalıştığını değil.<br><br>
+
+5. Otomatik Testler Yazın
+Otomatik testler, kodunuzun doğru çalıştığından emin olmanın en etkili yollarından biridir. Unit testler, entegrasyon testleri ve sistem testleri ile yazılımınızın farklı katmanlarını test edebilirsiniz. Test Driven Development (TDD) yaklaşımını benimseyerek, kodunuzu yazmadan önce testlerinizi yazabilirsiniz.<br><br>
+
+6. Kod İncelemeleri (Code Review) Yapın
+Kod incelemeleri, ekip içindeki bilgi paylaşımını artırır ve hataların erken tespit edilmesini sağlar. Ekip üyelerinizin kodunuzu gözden geçirmesi, farklı bakış açıları kazanmanıza ve kod kalitesini artırmanıza yardımcı olur.<br><br>
+
+7. Performans Optimizasyonlarına Dikkat Edin
+Performans, kullanıcı deneyimi açısından kritik öneme sahiptir. Kodunuzun verimli çalışmasını sağlamak için performans ölçümleri yapın ve gerekli optimizasyonları gerçekleştirin. Gereksiz hesaplamalardan ve tekrar eden işlemlerden kaçının.<br><br>
+
+8. Sürekli Entegrasyon ve Dağıtım (CI/CD) Süreçlerini Kullanın
+Sürekli entegrasyon ve dağıtım süreçleri, kodunuzun her an çalışır durumda olmasını ve hataların hızlıca tespit edilmesini sağlar. Jenkins, Travis CI veya GitHub Actions gibi araçlar kullanarak CI/CD süreçlerinizi otomatikleştirebilirsiniz.<br><br></font>
+
+<font size="+1" color="aliceblue"> Loiza System olarak, kaliteli yazılım geliştirmenin ve sürdürülebilir projeler oluşturmanın önemine inanıyoruz. Bu en iyi uygulamaları takip ederek, projelerinizde başarılı sonuçlar elde edebilirsiniz. Daha fazla ipucu ve rehber için blogumuzu takip etmeye devam edin!<br><br>
+
+Yazılım geliştirme yolculuğunuzda başarılar dileriz.<br></font>
+
+<font size="+1" color="red">Loiza System Ekibi</font></div></center>
+		</div>
+
+	  <script src="Loiza_SYSTEM.js"></script>
+</body>
+</html>
